@@ -4,16 +4,16 @@
   <img src="images/architecture.png" width="850">
 </p>
 
-This repository contains the implementation of a hybrid deep learning framework for multi-class grape leaf disease detection and segmentation.
-
-The proposed framework integrates YOLOv11 with an EfficientNet-B0 backbone for object detection and Segment Anything Model (SAM) for precise pixel-level segmentation.
+This repository contains the implementation of a hybrid deep learning framework for multi-class grape leaf disease detection and segmentation. The proposed framework integrates YOLOv11 with an EfficientNet-B0 backbone for object detection and Segment Anything Model (SAM) for precise pixel-level segmentation.
 
 ## Dataset
 The model was evaluated on a Grape Leaf Disease datasets containing 4,639 images across four categories:
-•	Leaf Blight
-•	Black Rot
-•	Healthy
-•	Black Measles (Esca)
+<ul>
+  <li>Leaf Blight</li>
+  <li>Black Rot</li>
+  <li>Healthy</li>
+  <li>Black Measles (Esca)</li>
+</ul>
 
 
 ## Framework
@@ -30,10 +30,16 @@ SAM Segmentation
 Disease Segmentation Masks
 
 
+<p align="center">
+  <img src="images/steps.png" width="850">
+</p>
 
 ## Main Objectives
-•	Multi-class grape leaf disease detection
-•	Accurate localization of diseased regions
-•	Pixel-level segmentation of disease areas
-•	Evaluation of a hybrid YOLOv11–EfficientNet-B0–SAM framework
+<ul>
+  <li>Multi-class grape leaf disease detection</li>
+  <li>Accurate localization of diseased regions</li>
+  <li>Pixel-level segmentation of disease areas</li>
+  <li>Evaluation of a hybrid YOLOv11–EfficientNet-B0–SAM framework</li>
+</ul>
+
 
