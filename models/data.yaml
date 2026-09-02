@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Black_Measles', 'Black_rot', 'Healthy', 'Leaf_blight']
+
+roboflow:
+  workspace: med-seg
+  project: planets-2_detection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/med-seg/planets-2_detection/dataset/2
