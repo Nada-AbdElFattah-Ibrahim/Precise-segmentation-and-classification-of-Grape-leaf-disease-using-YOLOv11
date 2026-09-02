@@ -2,7 +2,7 @@
 The Grape PlantVillage dataset has four classes: Black rot, Black Measles (Esca), healthy, and Leaf blight. 
 
 <p align="center">
-  <img src="../images/dataset.png" width="250">
+  <img src="../images/dataset.png" width="550">
 </p>
 
 # Dataset Source
